@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>艾的博客</title>
+  <title>switch条件语句 | 艾的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="练习1 从键盘输入小明的期末成绩： 当成绩为100时，“奖励一辆BWM” 当成绩为[80-90]时，“奖励一台iPhone11” 当成绩为[60-80]时，“奖励一本书” 其他时，什么奖励也没有  prompr()可以弹出一个提示框，该提示框中会带有一个文本框，用户可以在文本框中输入一段内容，该函数需要一个字符串作为参数，该字符串将会作为提示框的提示文字。 12345678910111213141">
+  <meta name="description" content="条件分支语句也叫switch语句  语法：   1234567891011121314151617switch(条件表达式)&amp;#123;	case 表达式：				语句...				break;  case 表达式：				语句...				break;  case 表达式：				语句...				break;  case 表达式：				语句...				break;  default:">
 <meta name="keywords" content="前端,js,jquery,javascript,html5,开发者,程序猿,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
 <meta property="og:type" content="article">
-<meta property="og:title" content="艾的博客">
-<meta property="og:url" content="http://yoursite.com/2019/11/14/if语句练习/index.html">
+<meta property="og:title" content="switch条件语句">
+<meta property="og:url" content="http://yoursite.com/2019/11/16/switch条件分支语句/index.html">
 <meta property="og:site_name" content="艾的博客">
-<meta property="og:description" content="练习1 从键盘输入小明的期末成绩： 当成绩为100时，“奖励一辆BWM” 当成绩为[80-90]时，“奖励一台iPhone11” 当成绩为[60-80]时，“奖励一本书” 其他时，什么奖励也没有  prompr()可以弹出一个提示框，该提示框中会带有一个文本框，用户可以在文本框中输入一段内容，该函数需要一个字符串作为参数，该字符串将会作为提示框的提示文字。 12345678910111213141">
+<meta property="og:description" content="条件分支语句也叫switch语句  语法：   1234567891011121314151617switch(条件表达式)&amp;#123;	case 表达式：				语句...				break;  case 表达式：				语句...				break;  case 表达式：				语句...				break;  case 表达式：				语句...				break;  default:">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-14T13:50:08.060Z">
+<meta property="og:updated_time" content="2019-11-16T02:48:29.152Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="艾的博客">
-<meta name="twitter:description" content="练习1 从键盘输入小明的期末成绩： 当成绩为100时，“奖励一辆BWM” 当成绩为[80-90]时，“奖励一台iPhone11” 当成绩为[60-80]时，“奖励一本书” 其他时，什么奖励也没有  prompr()可以弹出一个提示框，该提示框中会带有一个文本框，用户可以在文本框中输入一段内容，该函数需要一个字符串作为参数，该字符串将会作为提示框的提示文字。 12345678910111213141">
+<meta name="twitter:title" content="switch条件语句">
+<meta name="twitter:description" content="条件分支语句也叫switch语句  语法：   1234567891011121314151617switch(条件表达式)&amp;#123;	case 表达式：				语句...				break;  case 表达式：				语句...				break;  case 表达式：				语句...				break;  case 表达式：				语句...				break;  default:">
   
     <link rel="alternative" href="/atom.xml" title="艾的博客" type="application/atom+xml">
   
@@ -151,35 +151,47 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-if语句练习" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-switch条件分支语句" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      switch条件语句
+    </h1>
+  
+
+        
+        <a href="/2019/11/16/switch条件分支语句/" class="archive-article-date">
+  	<time datetime="2019-11-16T02:48:29.151Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-16</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="练习1"><a href="#练习1" class="headerlink" title="练习1"></a>练习1</h2><ul>
-<li>从键盘输入小明的期末成绩：</li>
-<li>当成绩为100时，“奖励一辆BWM”</li>
-<li>当成绩为[80-90]时，“奖励一台iPhone11”</li>
-<li>当成绩为[60-80]时，“奖励一本书”</li>
-<li>其他时，什么奖励也没有</li>
-</ul>
-<p><code>prompr()</code>可以弹出一个提示框，该提示框中会带有一个文本框，用户可以在文本框中输入一段内容，该函数需要一个字符串作为参数，该字符串将会作为提示框的提示文字。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//用户输入的内容将会作为函数的返回值返回，可以定义一个变量来接受该内容</span></span><br><span class="line"><span class="comment">//score就是小明的期末成绩</span></span><br><span class="line"><span class="keyword">var</span> score = prompt(<span class="string">"请输入小明的期末成绩："</span>)；</span><br><span class="line"></span><br><span class="line"><span class="comment">//判断值是否合法</span></span><br><span class="line"><span class="keyword">if</span>(score &gt;<span class="number">100</span> || score &lt; <span class="number">0</span> || <span class="built_in">isNaN</span>(score))&#123;</span><br><span class="line">   alert(<span class="string">"拉出去毙了~~~"</span>)；</span><br><span class="line">   &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">     <span class="comment">//根据score的值来决定给小明什么奖励</span></span><br><span class="line">      <span class="keyword">if</span>(score == <span class="number">100</span>)&#123;</span><br><span class="line">        <span class="comment">//奖励一台宝马</span></span><br><span class="line">        alert(<span class="string">"宝马，拿去~~~"</span>)；</span><br><span class="line">      &#125;<span class="keyword">else</span> <span class="keyword">if</span>(score &gt;= <span class="number">80</span>)&#123;</span><br><span class="line">        <span class="comment">//奖励一个手机</span></span><br><span class="line">        alert(<span class="string">"手机，拿去玩~~~"</span>)；</span><br><span class="line">      &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        alert(<span class="string">"棍子一根~~~"</span>)；</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+        <ul>
+<li><p>条件分支语句也叫switch语句</p>
+<ul>
+<li><p>语法：</p>
+  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">switch</span>(条件表达式)&#123;</span><br><span class="line">	<span class="keyword">case</span> 表达式：</span><br><span class="line">				语句...</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">  <span class="keyword">case</span> 表达式：</span><br><span class="line">				语句...</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">  <span class="keyword">case</span> 表达式：</span><br><span class="line">				语句...</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">  <span class="keyword">case</span> 表达式：</span><br><span class="line">				语句...</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">  <span class="keyword">default</span>:</span><br><span class="line">    		语句...</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="练习2"><a href="#练习2" class="headerlink" title="练习2"></a>练习2</h2><ul>
-<li>大家都知道，男大当婚，女大当嫁，那么女方家长要嫁女儿，当然要提出一定的条件：</li>
-<li>高：180cm以上；富：1000万以上；帅：500以上；</li>
-<li>如果这三个条件同时满足，则：”我一定要嫁给他“</li>
-<li>如果三个条件有为真的情况，则：”嫁吧，比上不足，比下有余。“</li>
-<li>如果三个条件多不满足，则：”不嫁！“</li>
+<blockquote>
+<p>执行流程：</p>
+<p>​        switch…case…语句</p>
+<p>​        在执行时会依次将case后的表达式的值和switch后的条件表达式的值进行全等比较，</p>
+<p>​                如果比较结果为true，则从当前case处开始执行代码</p>
+<p>​                        当前case后的代码都会执行，我们可以在case后面跟着一个break关键字，这样可以保                        证只会执行当前case后的语句，而不会执行其他的case</p>
+<p>​                如果比较结果为false，则继续向下比较</p>
+<p>​                如果所有的比较结果都为false，则只执行default后的语句</p>
+</blockquote>
+<p>  switch语句和if语句的功能实际上有重复的，使用switch可以实现if的功能；同样，使用if也可以实现switch的功能，所以我们使用时，可以根据自己的习惯选择。</p>
+</li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> height = prompt(<span class="string">"请输入你的身高(CM)："</span>)；</span><br><span class="line"><span class="keyword">var</span> height = prompt(<span class="string">"请输入你的财富(万)："</span>)；</span><br><span class="line"><span class="keyword">var</span> height = prompt(<span class="string">"请输入你的身高(PX)："</span>)；</span><br><span class="line"></span><br><span class="line"><span class="comment">//如果这三个条件同时满足，则：“我一定要嫁给他”</span></span><br><span class="line"><span class="keyword">if</span>(height &gt; <span class="number">180</span> &amp;&amp; money &gt; <span class="number">1000</span> &amp;&amp; face &gt; <span class="number">500</span>)&#123;</span><br><span class="line">  alert(<span class="string">"我一定要嫁给他~~"</span>)；</span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>(height &gt; <span class="number">180</span> || money || <span class="number">1000</span> || face &gt; <span class="number">500</span>)&#123;</span><br><span class="line">  <span class="comment">//如果三个条件有为真的情况，则：”嫁吧，比上不足，比下有余。“</span></span><br><span class="line">	alert(<span class="string">"嫁吧，比上不足，比下有余"</span>)；</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">  <span class="comment">//如果三个条件多不满足，则：”不嫁！“</span></span><br><span class="line">  alert(<span class="string">"不嫁！"</span>)；</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">alert(height+<span class="string">"--"</span>+money+<span class="string">"--"</span>+face);</span><br></pre></td></tr></table></figure>
-
-<h2 id="练习3"><a href="#练习3" class="headerlink" title="练习3"></a>练习3</h2><ul>
-<li>编写程序，有三个键盘输入三个整数分别存入变量num1、num2、num3，</li>
-<li>对他们进行排序，并且从大到小输出。</li>
+</li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//获取用户输入的三个数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//prompt()函数的返回值是String类型的</span></span><br><span class="line"><span class="comment">//加一个加号 + 将返回值转换为number</span></span><br><span class="line"><span class="keyword">var</span> num1 = +prompt(<span class="string">"请输入第一个数："</span>)；</span><br><span class="line"><span class="keyword">var</span> num2 = +prompt(<span class="string">"请输入第一个数："</span>)；</span><br><span class="line"><span class="keyword">var</span> num3 = +prompt(<span class="string">"请输入第一个数："</span>)；</span><br><span class="line"></span><br><span class="line"><span class="comment">//找到三个数中最小的数</span></span><br><span class="line"><span class="keyword">if</span>(num1 &lt; num2 &amp;&amp; num1 &lt; num3)&#123;</span><br><span class="line">	<span class="comment">//num1最小，比较num1和num3的大小</span></span><br><span class="line">  <span class="keyword">if</span>(num2 &lt; num3)&#123;</span><br><span class="line">    <span class="comment">//num1 num2 num3</span></span><br><span class="line">    alert(num1 +<span class="string">","</span>num2 +<span class="string">","</span>num3);</span><br><span class="line">  &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="comment">//num1 num3 num2</span></span><br><span class="line">    alert(num1 +<span class="string">","</span>num3 +<span class="string">","</span>num2);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>(num2 &lt; num1 &amp;&amp; num2 &lt; num3)&#123;</span><br><span class="line">  <span class="comment">//num2最小,比较num1和num3</span></span><br><span class="line">  <span class="keyword">if</span>(num1 &lt; num3)&#123;</span><br><span class="line">    <span class="comment">//num2 num1 num3</span></span><br><span class="line">    alert(num2 +<span class="string">","</span>num1 +<span class="string">","</span>num3);</span><br><span class="line">  &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="comment">//num2 num3 num1</span></span><br><span class="line">    alert(num2 +<span class="string">","</span>num3 +<span class="string">","</span>num1);</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">  <span class="comment">//num3最小,比较num1和num2</span></span><br><span class="line">  <span class="keyword">if</span>(num1 &lt; num2)&#123;</span><br><span class="line">    alert(num3 +<span class="string">","</span>num1 +<span class="string">","</span>num2);</span><br><span class="line">  &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="comment">//num3 num2 num1</span></span><br><span class="line">    alert(num3 +<span class="string">","</span>num2 +<span class="string">","</span>num1);</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//根据num的值，输出对应的中文</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> num = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*if(num == 1)&#123;</span></span><br><span class="line"><span class="comment">	console.log("壹")；</span></span><br><span class="line"><span class="comment">&#125;else if(num == 2)&#123;</span></span><br><span class="line"><span class="comment">  console.log("贰")；</span></span><br><span class="line"><span class="comment">&#125;else if(num == 3)&#123;</span></span><br><span class="line"><span class="comment">  console.log("叁")；</span></span><br><span class="line"><span class="comment">&#125;*/</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">switch</span>(num)&#123;</span><br><span class="line">  <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"壹"</span>);</span><br><span class="line">    <span class="comment">//使用break语句可以用来退出switch语句</span></span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">  <span class="keyword">case</span> <span class="number">2</span>:</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"贰"</span>);</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">  <span class="keyword">case</span> <span class="number">3</span>:</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"叁"</span>);</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">  <span class="keyword">default</span>:</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"非法数字~~~"</span>);</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
       
@@ -260,7 +272,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/11/14/if语句练习/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/11/16/switch条件分支语句/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -274,18 +286,18 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/11/14/switch条件分支语句/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/11/16/HTML基础/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          (no title)
+          HTML基础
         
       </div>
     </a>
   
   
-    <a href="/2019/09/26/css基础/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title"></div>
+    <a href="/2019/11/16/switch语句练习/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">switch语句练习</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -312,7 +324,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#练习1"><span class="toc-number">1.</span> <span class="toc-text">练习1</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#练习2"><span class="toc-number">2.</span> <span class="toc-text">练习2</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#练习3"><span class="toc-number">3.</span> <span class="toc-text">练习3</span></a></li></ol>
+                    目录，不存在的…
                     </div>
                 </span>
             </div>
@@ -326,7 +338,7 @@
   
   <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="if语句练习" data-title="" data-url="http://yoursite.com/2019/11/14/if语句练习/"></div>
+	<div class="ds-thread" data-thread-key="switch条件分支语句" data-title="switch条件语句" data-url="http://yoursite.com/2019/11/16/switch条件分支语句/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
